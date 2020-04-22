@@ -415,6 +415,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a95198e594803149af97aeccb332c74, type: 3}
+--- !u!114 &177990729 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4387274821362728662, guid: fe2119d1ebdfe5d44a9cc395805264bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 785503192}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ada848376370d343b2dd93d50c93d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &201124959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1189,6 +1201,16 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1847249848189667897, guid: fe2119d1ebdfe5d44a9cc395805264bb,
+        type: 3}
+      propertyPath: weapons.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847249848189667897, guid: fe2119d1ebdfe5d44a9cc395805264bb,
+        type: 3}
+      propertyPath: weapons.Array.data[4]
+      value: 
+      objectReference: {fileID: 177990729}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe2119d1ebdfe5d44a9cc395805264bb, type: 3}
 --- !u!1001 &791001151
@@ -6423,6 +6445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136484898791884, guid: 3f92b80b2d4877446bed489d147329a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114167210257062490, guid: 3f92b80b2d4877446bed489d147329a6,
+        type: 3}
+      propertyPath: dontAutoDisableComponents
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
