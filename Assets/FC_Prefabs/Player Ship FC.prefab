@@ -30,6 +30,36 @@ Transform:
   m_Father: {fileID: 5434628678069173324}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+--- !u!1 &1086605729934107085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4599653039408233227}
+  m_Layer: 9
+  m_Name: SpawnPt botNail
+  m_TagString: Untagged
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4599653039408233227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086605729934107085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.441, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5434628678069173324}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5232054363320504104
 GameObject:
   m_ObjectHideFlags: 0
@@ -5308,9 +5338,6 @@ GameObject:
   - component: {fileID: 5399985728083731306}
   - component: {fileID: 5964780159085791991}
   - component: {fileID: 8612891519125372440}
-  - component: {fileID: 5432915653918177847}
-  - component: {fileID: 19790037690772336}
-  - component: {fileID: 3583515029951938250}
   m_Layer: 9
   m_Name: Player Ship FC
   m_TagString: Player
@@ -5511,9 +5538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapons:
   - {fileID: 8612891519125372440}
-  - {fileID: 5432915653918177847}
-  - {fileID: 19790037690772336}
-  - {fileID: 3583515029951938250}
 --- !u!114 &8612891519125372440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5526,7 +5550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ada848376370d343b2dd93d50c93d8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _comment: Notes...
+  _comment: Arme test
   type: 0
   isResetOnBtnUp: 1
   lvls:
@@ -5534,486 +5558,120 @@ MonoBehaviour:
     - cannon: {fileID: 5434628681692334018}
       initialDelay: 0
       fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
+      fireDuration: 1e+9
+      bulletPrefab: {fileID: 4274999468778839641, guid: 9a694a671bd54ac4e8b8d659354c6d47,
         type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 0
-      fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 0
-      fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628680330807720}
-      initialDelay: 0
-      fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628680330807720}
-      initialDelay: 0
-      fireDelay: 0.2
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 3134082227668589880}
-      initialDelay: 0
-      fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 1495129131898130465}
-      initialDelay: 0
-      fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628679753735896}
-      initialDelay: 0
-      fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628681034773118}
-      initialDelay: 0
-      fireDelay: 0.25
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628680330807720}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 3134082227668589880}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 3134082227668589880}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 1495129131898130465}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628679753735896}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628681034773118}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 3076956205325294962}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 92130409683468945}
-      initialDelay: 0
-      fireDelay: 0.15
-      fireDuration: 9999
-      bulletPrefab: {fileID: 6938235420780138673, guid: d8812590f8ed22844980c87ac4ab58d7,
-        type: 3}
-      laserPrefab: {fileID: 0}
---- !u!114 &5432915653918177847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5433053646468250290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ada848376370d343b2dd93d50c93d8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _comment: Notes...
-  type: 1
-  isResetOnBtnUp: 0
-  lvls:
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0.6
-      fireDuration: 9999
-      bulletPrefab: {fileID: 5564041689327569452, guid: 94ef095bda12c5f4d96c87f9cbc71317,
-        type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0.3
-      fireDuration: 9999
-      bulletPrefab: {fileID: 5564041689327569452, guid: 94ef095bda12c5f4d96c87f9cbc71317,
-        type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0.3
-      fireDuration: 9999
-      bulletPrefab: {fileID: 3956953824726097923, guid: 72f8f012df9f1274fb56428921b7fb2d,
-        type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0.6
-      fireDuration: 9999
-      bulletPrefab: {fileID: 3956953824726097923, guid: 72f8f012df9f1274fb56428921b7fb2d,
-        type: 3}
-      laserPrefab: {fileID: 0}
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0.3
-      fireDelay: 0.6
-      fireDuration: 9999
-      bulletPrefab: {fileID: 3956953824726097923, guid: 3f8ed282f86ce234fafc12cacfcc6d0a,
-        type: 3}
-      laserPrefab: {fileID: 0}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0.3
-      fireDuration: 9999
-      bulletPrefab: {fileID: 3956953824726097923, guid: 3f8ed282f86ce234fafc12cacfcc6d0a,
-        type: 3}
-      laserPrefab: {fileID: 0}
---- !u!114 &19790037690772336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5433053646468250290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ada848376370d343b2dd93d50c93d8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _comment: Notes...
-  type: 2
-  isResetOnBtnUp: 0
-  lvls:
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0.6
-      fireDuration: 1
-      bulletPrefab: {fileID: 5564041689327569452, guid: e754e284dee30cd4a8b9ef7182cf00ea,
-        type: 3}
-      laserPrefab: {fileID: 0}
---- !u!114 &3583515029951938250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5433053646468250290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ada848376370d343b2dd93d50c93d8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _comment: Notes...
-  type: 6
-  isResetOnBtnUp: 0
-  lvls:
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679692663252}
-      initialDelay: 5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678544413014}
-      initialDelay: 5.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679387725210}
-      initialDelay: 5.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679692663252}
-      initialDelay: 5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678544413014}
-      initialDelay: 5.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679387725210}
-      initialDelay: 5.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628677936924638}
-      initialDelay: 6.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679868461716}
-      initialDelay: 6.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-  - guns:
-    - cannon: {fileID: 5434628681692334018}
-      initialDelay: 0
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628681086574306}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678103550224}
-      initialDelay: 3
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679692663252}
-      initialDelay: 5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678544413014}
-      initialDelay: 5.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679387725210}
-      initialDelay: 5.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628677936924638}
-      initialDelay: 6.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628679868461716}
-      initialDelay: 6.5
-      fireDelay: 0
-      fireDuration: 9999
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: edbee9c93769ff248a5d24a63427f1c2,
-        type: 3}
-    - cannon: {fileID: 5434628678042213040}
-      initialDelay: 12
-      fireDelay: 0
-      fireDuration: 7
-      bulletPrefab: {fileID: 0}
       laserPrefab: {fileID: 114065000917543804, guid: 8fa223a286fba114b85c892681efde6d,
         type: 3}
-    - cannon: {fileID: 5434628680196404976}
-      initialDelay: 12
-      fireDelay: 0
-      fireDuration: 7
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: 8fa223a286fba114b85c892681efde6d,
+  - guns:
+    - cannon: {fileID: 5434628681692334018}
+      initialDelay: 0
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
-    - cannon: {fileID: 5434628678897470068}
-      initialDelay: 13
-      fireDelay: 0
-      fireDuration: 5
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: 8fa223a286fba114b85c892681efde6d,
+      laserPrefab: {fileID: 0}
+  - guns:
+    - cannon: {fileID: 1277023463636902538}
+      initialDelay: 0
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
-    - cannon: {fileID: 5434628680330807720}
-      initialDelay: 13
-      fireDelay: 0
-      fireDuration: 5
-      bulletPrefab: {fileID: 0}
-      laserPrefab: {fileID: 114065000917543804, guid: 8fa223a286fba114b85c892681efde6d,
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 4599653039408233227}
+      initialDelay: 0
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
+      laserPrefab: {fileID: 0}
+  - guns:
+    - cannon: {fileID: 1277023463636902538}
+      initialDelay: 0
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 4599653039408233227}
+      initialDelay: 0
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 1277023463636902538}
+      initialDelay: 0.1
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 4599653039408233227}
+      initialDelay: 0.1
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 1277023463636902538}
+      initialDelay: 0.2
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 4599653039408233227}
+      initialDelay: 0.2
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
+        type: 3}
+      laserPrefab: {fileID: 0}
+  - guns:
+    - cannon: {fileID: 1277023463636902538}
+      initialDelay: 0
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 8813050713328119623, guid: 1e552dfa47a6edf469c95444097e96db,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 4599653039408233227}
+      initialDelay: 0
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 8813050713328119623, guid: 1e552dfa47a6edf469c95444097e96db,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 1277023463636902538}
+      initialDelay: 0.1
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 8813050713328119623, guid: 1e552dfa47a6edf469c95444097e96db,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 4599653039408233227}
+      initialDelay: 0.1
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 8813050713328119623, guid: 1e552dfa47a6edf469c95444097e96db,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 1277023463636902538}
+      initialDelay: 0.2
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 8813050713328119623, guid: 1e552dfa47a6edf469c95444097e96db,
+        type: 3}
+      laserPrefab: {fileID: 0}
+    - cannon: {fileID: 4599653039408233227}
+      initialDelay: 0.2
+      fireDelay: 0.25
+      fireDuration: 9999
+      bulletPrefab: {fileID: 8813050713328119623, guid: 1e552dfa47a6edf469c95444097e96db,
+        type: 3}
+      laserPrefab: {fileID: 0}
 --- !u!1 &5433053646522586480
 GameObject:
   m_ObjectHideFlags: 0
@@ -6229,6 +5887,8 @@ Transform:
   - {fileID: 5434628680196404976}
   - {fileID: 5434628678897470068}
   - {fileID: 5434628680330807720}
+  - {fileID: 1277023463636902538}
+  - {fileID: 4599653039408233227}
   m_Father: {fileID: 5434628679824382730}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6308,6 +5968,36 @@ MonoBehaviour:
   amplitude: 90
   angularSpeed: -50
   isPlayerShip: 1
+--- !u!1 &5715686967759475903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1277023463636902538}
+  m_Layer: 9
+  m_Name: SpawnPt topNail
+  m_TagString: Untagged
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1277023463636902538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5715686967759475903}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5434628678069173324}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6715174848259368481
 GameObject:
   m_ObjectHideFlags: 0
