@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4606010216424655749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678176324746858140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7260cd038a02db4ca38239233e14952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  speed: 20
+  endCondition: 0
+  value: 0
+  healthManager: {fileID: 0}
+  componentsToTriggerOnPhase2: []
+--- !u!1001 &709566617956310919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1513863512916534858, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: componentsToTrigger.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5275082408758022427, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_Name
+      value: TrompTrooper Spawner Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9067937911793923648, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -3486723994765638224, guid: 9cb3dd2b6c523c944be2978d97b4ee7a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9cb3dd2b6c523c944be2978d97b4ee7a, type: 3}
+--- !u!1 &4678176324746858140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5275082408758022427, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+    type: 3}
+  m_PrefabInstance: {fileID: 709566617956310919}
+  m_PrefabAsset: {fileID: 0}

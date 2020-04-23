@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3486723994765638224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5275082408758022427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7260cd038a02db4ca38239233e14952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  speed: 5
+  endCondition: 0
+  value: 0
+  healthManager: {fileID: 0}
+  componentsToTriggerOnPhase2: []
+--- !u!1001 &2312119687720691170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6755828145447850914, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575783667929740537, guid: 38a31561d93117b4f94ce577ebd29787,
+        type: 3}
+      propertyPath: m_Name
+      value: TrompTrooper Alpha
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38a31561d93117b4f94ce577ebd29787, type: 3}
+--- !u!1 &5275082408758022427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7575783667929740537, guid: 38a31561d93117b4f94ce577ebd29787,
+    type: 3}
+  m_PrefabInstance: {fileID: 2312119687720691170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5275082408758022426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7575783667929740536, guid: 38a31561d93117b4f94ce577ebd29787,
+    type: 3}
+  m_PrefabInstance: {fileID: 2312119687720691170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3723858318301145013 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1421872984703779415, guid: 38a31561d93117b4f94ce577ebd29787,
+    type: 3}
+  m_PrefabInstance: {fileID: 2312119687720691170}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5275082408758022427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f14abc725d6c04ba16736b1a0f7a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3181101621023500393
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5275082408758022426}
+    m_Modifications:
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32.091217
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.278042
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.01794
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319816387826661871, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462654985336573485, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerTrompTrooper
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118499845563928099, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: componentsToTrigger.Array.data[0]
+      value: 
+      objectReference: {fileID: 3723858318301145013}
+    - target: {fileID: 4118499845563928099, guid: b0d333d0109bfc04387d139458327004,
+        type: 3}
+      propertyPath: componentsToTrigger.Array.data[1]
+      value: 
+      objectReference: {fileID: -3486723994765638224}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0d333d0109bfc04387d139458327004, type: 3}

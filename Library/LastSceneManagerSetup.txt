@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/FC_Scenes/FC_TestScene.unity
-=======
 - path: Assets/ELC_Scenes/ELC_SceneTest.unity
->>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
