@@ -209,7 +209,7 @@ MonoBehaviour:
   componentsToTrigger: []
   dontAutoDisableComponents: 0
   defaultDamage: 5
-  defaultSpeed: 25
+  defaultSpeed: 9
   maxBounce: 0
   doomTimer: {fileID: 0}
   toInstantiateOnMapHit: {fileID: 4000010821944288, guid: b080c645dc123db41bdd9a0da73f845d,
