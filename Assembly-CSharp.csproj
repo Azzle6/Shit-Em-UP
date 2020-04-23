@@ -9,7 +9,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
     <ProjectGuid>{BE8E894D-F9E6-8484-AA1F-E9DA636B9CDC}</ProjectGuid>
+=======
+    <ProjectGuid>{1200F496-6807-A4C9-091B-F1F86EC544E7}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -119,6 +123,7 @@
     <Compile Include="Assets\_DO NOT TOUCH\Tile Scripts\RuleTile.cs" />
     <None Include="Assets\_DO NOT TOUCH\ScreenFader\Unlit Transparent HUD.shader" />
     <Reference Include="Unity.Timeline.Editor">
+<<<<<<< Updated upstream
       <HintPath>C:/Users/flix6/OneDrive/Bureau/SCHMUP/Shit-Em-UP/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -144,6 +149,33 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/flix6/OneDrive/Bureau/SCHMUP/Shit-Em-UP/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+=======
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/eliot/Desktop/Game Dev/SHMUP/Shit'Em UP/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Logiciels/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
