@@ -16,6 +16,9 @@ GameObject:
   - component: {fileID: 2458235415137192634}
   - component: {fileID: 2458235415137192635}
   - component: {fileID: -5775955312513887682}
+  - component: {fileID: 2900147540215381125}
+  - component: {fileID: 2919148600990127644}
+  - component: {fileID: 1717051651543247073}
   - component: {fileID: 2458235415137192614}
   - component: {fileID: -1688580510833426795}
   m_Layer: 10
@@ -167,6 +170,9 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger:
   - {fileID: -5775955312513887682}
+  - {fileID: 2900147540215381125}
+  - {fileID: 2919148600990127644}
+  - {fileID: 1717051651543247073}
   dontAutoDisableComponents: 0
   hitPoints: 20
   dmgTakenOnShipHit: 50
@@ -186,6 +192,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   objToSpawn: {fileID: 3825212958946349193, guid: f9c29a092c1f30d4d8fedb74bb00d0f0,
+    type: 3}
+--- !u!114 &2900147540215381125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2458235415137192615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  objToSpawn: {fileID: 5870925697408063261, guid: c0363a3a4d5032745a9ed75593bb706a,
+    type: 3}
+--- !u!114 &2919148600990127644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2458235415137192615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  objToSpawn: {fileID: 1176980612800596623, guid: 7388db2f4964d2d49a03d3ea3e3cdd31,
+    type: 3}
+--- !u!114 &1717051651543247073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2458235415137192615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  objToSpawn: {fileID: 8890049445423574488, guid: 769b344198ee8d74cae6b63ebcac6578,
     type: 3}
 --- !u!114 &2458235415137192614
 MonoBehaviour:
