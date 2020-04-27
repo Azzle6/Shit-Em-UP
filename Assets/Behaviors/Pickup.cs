@@ -14,7 +14,7 @@ public class Pickup : TriggeringObject
 	Rigidbody2D rb = null;
 	//[SerializeField]
 	Animator animator = null;
-	[SerializeField] Pickups[] types = { Pickups.BulletA };
+	[SerializeField] Pickups[] types = { Pickups.Weapon1 };
 	[SerializeField] float cyclingDelay = 2.5f;
 	//[SerializeField] Pickups[] cycleList; // = { Pickups.BulletA, Pickups.BulletB, Pickups.BulletC, Pickups.LaserA, Pickups.LaserB };
 	[SerializeField]
@@ -127,8 +127,10 @@ public class Pickup : TriggeringObject
 	void OnDrawGizmos()
 	{
 		Color color;
-		string label;
-		int textSize;
+		string label = "";
+		int textSize = 28;
+
+		bool isCyclingEditor = (types.Length > 1) ? true : false;
 
 		if (types[0] == Pickups.Bomb)
 		{
@@ -136,20 +138,20 @@ public class Pickup : TriggeringObject
 			//Gizmos.DrawWireSphere(rb.position, 0.7f);
 			color = new Color(1f, 0f, 0f, 0.4f);
 			label = "B";
-			textSize = 22;
+			//textSize = 22;
 		}
 		else if (types[0] == Pickups.Health)
 		{
-			color = isCycling ? new Color(0.5f, 0.9f, 0f, 0.4f) : new Color(0f, 1f, 0.3f, 0.4f);
+			color = isCyclingEditor ? new Color(1f, 1f, 0f, 0.4f) : new Color(0f, 1f, 0.3f, 0.4f);
 			label = "+";
-			textSize = 22;
+			//textSize = 22;
 		}
 		else
 		{
-			color = isCycling ? new Color(1f, 1f, 0f, 0.4f) : new Color(1f, 1f, 1f, 0.4f);
+			color = isCyclingEditor ? new Color(1f, 1f, 0f, 0.4f) : new Color(1f, 1f, 1f, 0.4f);
 			label = types[0].ToString();
-			label = (label[0]).ToString() + label[label.Length - 1];
-			textSize = 20;
+			label = label[label.Length - 1].ToString();
+			//textSize = 22;
 		}
 
 #if UNITY_EDITOR
@@ -173,14 +175,14 @@ public class Pickup : TriggeringObject
 
 public enum Pickups
 {
-	BulletA = 0,
-	BulletB = 1,
-	BulletC = 2,
-	BulletD = 3,
-	BulletE = 4,
-	LaserA = 6,
-	LaserB = 7,
-	LaserC = 8,
+	Weapon1 = 0,
+	Weapon2 = 1,
+	Weapon3 = 2,
+	Weapon4 = 3,
+	Weapon5 = 4,
+	Weapon6 = 6,
+	Weapon7 = 7,
+	Weapon8 = 8,
 	Bomb = 10,
 	Health = 15,
 }
