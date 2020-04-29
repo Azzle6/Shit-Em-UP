@@ -20,8 +20,8 @@ MonoBehaviour:
     height: 997
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 592}
+  m_RootView: {fileID: 7}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -85,22 +85,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 955, y: 492}
+  m_MinSize: {x: 956, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 121
-=======
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1920
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
->>>>>>> Stashed changes
+  controlID: 93
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,8 +148,8 @@ MonoBehaviour:
     y: 0
     width: 477
     height: 790
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -321,10 +309,10 @@ MonoBehaviour:
     y: 0
     width: 1926
     height: 1307
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 122
+  controlID: 151
 --- !u!114 &11
 =======
     y: 375
@@ -358,10 +346,10 @@ MonoBehaviour:
     y: 0
     width: 1926
     height: 790
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 123
+  controlID: 152
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -942,41 +930,21 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 72}
-    m_SelectedIDs: 52680000
-    m_LastClickedID: 26706
-    m_ExpandedIDs: 00000000043900000639000032390000623900006c390000703900009c9f0000c2e8000000ca9a3b
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: ELC_Scenes
-      m_OriginalName: ELC_Scenes
-=======
-  - Assets/FC_Prefabs/NailGun Tests
-  m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\flix6\OneDrive\Bureau\SCHMUP\Shit-Em-UP
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 663a0000
-    m_LastClickedID: 14950
-    m_ExpandedIDs: 00000000223a0000243a0000263a0000283a00002a3a00002c3a000000ca9a3b
+    scrollPos: {x: 0, y: 56}
+    m_SelectedIDs: f63d0000
+    m_LastClickedID: 15862
+    m_ExpandedIDs: 00000000b63d0000b83d0000ba3d0000bc3d0000be3d0000ea3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
->>>>>>> Stashed changes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-<<<<<<< Updated upstream
-      m_UserData: 14654
-=======
       m_UserData: 0
->>>>>>> Stashed changes
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
@@ -993,11 +961,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< Updated upstream
-    m_ExpandedIDs: 000000000439000006390000083900000a390000
-=======
-    m_ExpandedIDs: 00000000223a0000243a0000263a0000283a00002a3a00002c3a000000ca9a3b
->>>>>>> Stashed changes
+    m_ExpandedIDs: 00000000b63d0000b83d0000ba3d0000bc3d0000be3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1024,8 +988,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-<<<<<<< Updated upstream
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009e500000
 =======
     m_HadKeyboardFocusLastEvent: 0
@@ -1147,18 +1110,18 @@ MonoBehaviour:
       m_ExpandedIDs: 6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: NukeSkywalker
-        m_OriginalName: NukeSkywalker
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -54164
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -1204,9 +1167,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 25.851595, y: 0.027586162, z: -53.726562}
+    m_Target: {x: 29.39151, y: 1.6482027, z: -54.583603}
     speed: 2
-    m_Value: {x: 25.851595, y: 0.027586162, z: -53.726562}
+    m_Value: {x: 28.620337, y: 1.2638881, z: -54.397}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1256,9 +1219,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 34.796818
+    m_Target: 43.363167
     speed: 2
-    m_Value: 34.796818
+    m_Value: 41.495853
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1331,8 +1294,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -723.5
     m_HBaseRangeMax: 723.5
-    m_VBaseRangeMin: -374
-    m_VBaseRangeMax: 374
+    m_VBaseRangeMin: -384.5
+    m_VBaseRangeMax: 384.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1349,11 +1312,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1447
-      height: 748
+      height: 769
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 723.5, y: 374}
+    m_Translation: {x: 723.5, y: 384.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1361,9 +1324,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -723.5
-      y: -374
+      y: -384.5
       width: 1447
-      height: 748
+      height: 769
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1447, y: 769}
