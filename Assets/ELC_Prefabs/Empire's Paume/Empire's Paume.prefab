@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -1555533510110094389}
   - component: {fileID: 3691367548670688727}
   - component: {fileID: -1319362653238495351}
+  - component: {fileID: 1382970928798909701}
   m_Layer: 10
   m_Name: Empire's Paume
   m_TagString: Untagged
@@ -210,3 +211,16 @@ MonoBehaviour:
   value: 0
   healthManager: {fileID: 0}
   target: {fileID: 0}
+--- !u!114 &1382970928798909701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6770109012692331407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToShip: 30

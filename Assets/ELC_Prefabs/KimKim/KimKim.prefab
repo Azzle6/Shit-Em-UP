@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 4883025696574853733}
   - component: {fileID: -1728251991076826205}
   - component: {fileID: -5903707063362119179}
+  - component: {fileID: 8747756423572463655}
   m_Layer: 10
   m_Name: KimKim
   m_TagString: Untagged
@@ -335,6 +336,19 @@ MonoBehaviour:
   - {fileID: 7322674959754206402}
   - {fileID: -8126045900523364919}
   - {fileID: -5903707063362119179}
+--- !u!114 &8747756423572463655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147980769056256640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToShip: 25
 --- !u!1 &5872194068037333386
 GameObject:
   m_ObjectHideFlags: 0

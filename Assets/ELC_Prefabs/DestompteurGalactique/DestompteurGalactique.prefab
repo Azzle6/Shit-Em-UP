@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 1717051651543247073}
   - component: {fileID: 2458235415137192614}
   - component: {fileID: -1688580510833426795}
+  - component: {fileID: 8061279478604428591}
   m_Layer: 10
   m_Name: DestompteurGalactique
   m_TagString: Untagged
@@ -185,7 +186,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2458235415137192615}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
   m_Name: 
@@ -200,7 +201,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2458235415137192615}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
   m_Name: 
@@ -215,7 +216,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2458235415137192615}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
   m_Name: 
@@ -230,7 +231,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2458235415137192615}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
   m_Name: 
@@ -271,3 +272,20 @@ MonoBehaviour:
   value: 0
   healthManager: {fileID: 0}
   freeMoveDir: {x: 0, y: 0}
+--- !u!114 &8061279478604428591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2458235415137192615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf3b1039878a7f46a9c7f52d6ba77e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  colorLink2Targets: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  colorTrigger: {r: 0, g: 0.6, b: 0, a: 1}

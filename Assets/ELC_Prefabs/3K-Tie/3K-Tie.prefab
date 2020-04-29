@@ -46,7 +46,7 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger:
   - {fileID: 213819897891881527}
-  - {fileID: 0}
+  - {fileID: 213819897891881522}
   dontAutoDisableComponents: 0
   colorLink2Targets: {r: 0.6, g: 0.6, b: 0.6, a: 1}
   colorTrigger: {r: 0, g: 0.6, b: 0, a: 1}
@@ -62,12 +62,13 @@ GameObject:
   - component: {fileID: 213819897891881524}
   - component: {fileID: 213819897891881525}
   - component: {fileID: 213819897891881526}
+  - component: {fileID: 213819897891881522}
   - component: {fileID: 213819897891881527}
   - component: {fileID: 213819897891881520}
-  - component: {fileID: 213819897891881521}
   - component: {fileID: 213819897891881514}
   - component: {fileID: 213819897891881513}
-  - component: {fileID: 213819897891881522}
+  - component: {fileID: 213819897891881521}
+  - component: {fileID: 7789943551676972126}
   m_Layer: 10
   m_Name: 3K-Tie
   m_TagString: Untagged
@@ -165,7 +166,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3164a3302d6a847bf422dfe0fdd079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: bf04cb72ff1712641822bcedc695bcde, type: 2}
+--- !u!114 &213819897891881522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213819897891881523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aba58bb1fc80ca4998563b7dd5b171b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  speed: 5
+  endCondition: 0
+  value: 0
+  healthManager: {fileID: 0}
+  freeMoveDir: {x: -1, y: 0}
 --- !u!114 &213819897891881527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,24 +222,6 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   objToSpawn: {fileID: 4068825321673426883, guid: 89638a8ed47cbca4588d3f1553391423,
     type: 3}
---- !u!114 &213819897891881521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213819897891881523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb7049e3bcd0f68478ad0f44352cfd56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _comment: Can be added to a COMPONENTS TO TRIGGER list
-  animatorIfFireAnim: {fileID: 0}
-  bulletPrefab: {fileID: 8230706563045908854, guid: 12933f626b2accf4daef909070d0ba47,
-    type: 3}
-  delayBtwFire: 1
-  shootingAngle: 180
 --- !u!50 &213819897891881514
 Rigidbody2D:
   serializedVersion: 4
@@ -256,7 +259,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &213819897891881522
+--- !u!114 &213819897891881521
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -265,14 +268,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 213819897891881523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aba58bb1fc80ca4998563b7dd5b171b, type: 3}
+  m_Script: {fileID: 11500000, guid: bb7049e3bcd0f68478ad0f44352cfd56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _comment: Can be added to a COMPONENTS TO TRIGGER list
-  componentsToTrigger: []
-  dontAutoDisableComponents: 0
-  speed: 5
-  endCondition: 0
-  value: 0
-  healthManager: {fileID: 0}
-  freeMoveDir: {x: -1, y: 0}
+  animatorIfFireAnim: {fileID: 0}
+  bulletPrefab: {fileID: 8230706563045908854, guid: 12933f626b2accf4daef909070d0ba47,
+    type: 3}
+  delayBtwFire: 1
+  shootingAngle: 180
+--- !u!114 &7789943551676972126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213819897891881523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToShip: 30
