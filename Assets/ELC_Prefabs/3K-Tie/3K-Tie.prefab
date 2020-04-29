@@ -47,6 +47,7 @@ MonoBehaviour:
   componentsToTrigger:
   - {fileID: 213819897891881527}
   - {fileID: 213819897891881522}
+  - {fileID: 213819897891881521}
   dontAutoDisableComponents: 0
   colorLink2Targets: {r: 0.6, g: 0.6, b: 0.6, a: 1}
   colorTrigger: {r: 0, g: 0.6, b: 0, a: 1}

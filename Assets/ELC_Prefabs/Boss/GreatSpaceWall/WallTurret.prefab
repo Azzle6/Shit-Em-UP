@@ -12,12 +12,23 @@ GameObject:
   - component: {fileID: 4634727877995566179}
   - component: {fileID: 1194583269842895792}
   - component: {fileID: 6044022279515344302}
-  - component: {fileID: 2968620455160508358}
-  - component: {fileID: -3855792096782724401}
+  - component: {fileID: 6879604399074522301}
   - component: {fileID: 7291318826818604955}
   - component: {fileID: 365881552835369627}
   - component: {fileID: 1621582789518231128}
+  - component: {fileID: -917365807999180603}
   - component: {fileID: -6716118445341812317}
+  - component: {fileID: 2968620455160508358}
+  - component: {fileID: -3855792096782724401}
+  - component: {fileID: 7277855472252988244}
+  - component: {fileID: 1767163967642917137}
+  - component: {fileID: 7742099640505895530}
+  - component: {fileID: 6812817705923894802}
+  - component: {fileID: -6124327968743280443}
+  - component: {fileID: -2368527822293102890}
+  - component: {fileID: -8206840351892400468}
+  - component: {fileID: -7713036182772580001}
+  - component: {fileID: -7357240866712299116}
   m_Layer: 10
   m_Name: WallTurret
   m_TagString: Untagged
@@ -115,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: bf04cb72ff1712641822bcedc695bcde, type: 2}
---- !u!114 &2968620455160508358
+--- !u!114 &6879604399074522301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,35 +135,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6511395888192076082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9f14abc725d6c04ba16736b1a0f7a2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _comment: Can be added to a COMPONENTS TO TRIGGER list
-  componentsToTrigger:
-  - {fileID: -6716118445341812317}
-  dontAutoDisableComponents: 0
-  hitPoints: 20
-  dmgTakenOnShipHit: 50
-  dmgTakenOnMapHit: 2
-  doomTimer: {fileID: 0}
---- !u!114 &-3855792096782724401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6511395888192076082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb7049e3bcd0f68478ad0f44352cfd56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _comment: Can be added to a COMPONENTS TO TRIGGER list
-  animatorIfFireAnim: {fileID: 0}
-  bulletPrefab: {fileID: 9192488692849692949, guid: ed10e41e46b62a440a44b4a8d52dd715,
-    type: 3}
-  delayBtwFire: 1
-  shootingAngle: 90
+  damageToShip: 25
 --- !u!61 &7291318826818604955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -207,6 +193,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aba58bb1fc80ca4998563b7dd5b171b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  speed: 2
+  endCondition: 0
+  value: 0
+  healthManager: {fileID: 0}
+  freeMoveDir: {x: -1, y: 0}
+--- !u!114 &-917365807999180603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8aba58bb1fc80ca4998563b7dd5b171b, type: 3}
@@ -234,4 +240,206 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   objToSpawn: {fileID: 1977490934259595272, guid: cadd579de97c0d14da12978237f33255,
+    type: 3}
+--- !u!114 &2968620455160508358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f14abc725d6c04ba16736b1a0f7a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger:
+  - {fileID: -6716118445341812317}
+  - {fileID: -7357240866712299116}
+  - {fileID: -7713036182772580001}
+  dontAutoDisableComponents: 0
+  hitPoints: 20
+  dmgTakenOnShipHit: 50
+  dmgTakenOnMapHit: 2
+  doomTimer: {fileID: 0}
+--- !u!114 &-3855792096782724401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7049e3bcd0f68478ad0f44352cfd56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  animatorIfFireAnim: {fileID: 0}
+  bulletPrefab: {fileID: 9192488692849692949, guid: ed10e41e46b62a440a44b4a8d52dd715,
+    type: 3}
+  delayBtwFire: 1
+  shootingAngle: 90
+--- !u!114 &7277855472252988244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7049e3bcd0f68478ad0f44352cfd56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  animatorIfFireAnim: {fileID: 0}
+  bulletPrefab: {fileID: 3811436116884049043, guid: edfdcee8f73aa794d98f5bd376c45a19,
+    type: 3}
+  delayBtwFire: 1
+  shootingAngle: 180
+--- !u!114 &1767163967642917137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7049e3bcd0f68478ad0f44352cfd56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  animatorIfFireAnim: {fileID: 0}
+  bulletPrefab: {fileID: 4737312062187567231, guid: d988e259a12d19d43b2e9475bd7f7869,
+    type: 3}
+  delayBtwFire: 1
+  shootingAngle: 180
+--- !u!114 &7742099640505895530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318e7beabcfa2844d9f8f12558773741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger:
+  - {fileID: 7277855472252988244}
+  - {fileID: 1767163967642917137}
+  - {fileID: 6812817705923894802}
+  - {fileID: -6124327968743280443}
+  dontAutoDisableComponents: 0
+  duration: 1.5
+--- !u!114 &6812817705923894802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318e7beabcfa2844d9f8f12558773741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger:
+  - {fileID: 7742099640505895530}
+  - {fileID: -2368527822293102890}
+  dontAutoDisableComponents: 0
+  duration: 1.5
+--- !u!114 &-6124327968743280443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90779d1840fa6c54ab2df1f85815cc8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody2d: {fileID: 0}
+  collider2d: {fileID: 0}
+  otherComponentsToDeactivate:
+  - {fileID: 7742099640505895530}
+--- !u!114 &-2368527822293102890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90779d1840fa6c54ab2df1f85815cc8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody2d: {fileID: 0}
+  collider2d: {fileID: 0}
+  otherComponentsToDeactivate:
+  - {fileID: 7277855472252988244}
+  - {fileID: 1767163967642917137}
+  - {fileID: 6812817705923894802}
+--- !u!114 &-8206840351892400468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf3b1039878a7f46a9c7f52d6ba77e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger:
+  - {fileID: 7742099640505895530}
+  dontAutoDisableComponents: 0
+  colorLink2Targets: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  colorTrigger: {r: 0, g: 0.6, b: 0, a: 1}
+--- !u!114 &-7713036182772580001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  objToSpawn: {fileID: 1385057318339266568, guid: 8afc5d6706b965144990a44c7028021d,
+    type: 3}
+--- !u!114 &-7357240866712299116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511395888192076082}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  objToSpawn: {fileID: 1385057318339266568, guid: 8afc5d6706b965144990a44c7028021d,
     type: 3}

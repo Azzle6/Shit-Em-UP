@@ -15,8 +15,11 @@ GameObject:
   - component: {fileID: -962575986865323082}
   - component: {fileID: 4955236628579957877}
   - component: {fileID: -5919522547117789022}
-  - component: {fileID: -2064810349476659513}
-  - component: {fileID: 7893458241735119440}
+  - component: {fileID: 8627445826642178714}
+  - component: {fileID: -4183447262041334826}
+  - component: {fileID: 3149276432428821585}
+  - component: {fileID: 8407110623943711813}
+  - component: {fileID: 140204175484057525}
   m_Layer: 10
   m_Name: Wall
   m_TagString: Untagged
@@ -113,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3164a3302d6a847bf422dfe0fdd079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: bf04cb72ff1712641822bcedc695bcde, type: 2}
 --- !u!114 &-962575986865323082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,9 +130,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _comment: Can be added to a COMPONENTS TO TRIGGER list
-  componentsToTrigger: []
+  componentsToTrigger:
+  - {fileID: -4183447262041334826}
+  - {fileID: -8970916618208547536, guid: f979f1e66fd74dd4c83ecd0fb00d2f9f, type: 3}
   dontAutoDisableComponents: 0
-  hitPoints: 800
+  hitPoints: 100
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}
@@ -180,7 +185,73 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-2064810349476659513
+--- !u!114 &8627445826642178714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214903140148060515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToShip: 25
+--- !u!114 &-4183447262041334826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214903140148060515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  objToSpawn: {fileID: 1553028439151992, guid: 5723b316ae54ed4478c5d0969545cc34, type: 3}
+--- !u!114 &3149276432428821585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214903140148060515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf3b1039878a7f46a9c7f52d6ba77e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger:
+  - {fileID: -962575986865323082}
+  - {fileID: 140204175484057525}
+  dontAutoDisableComponents: 0
+  colorLink2Targets: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  colorTrigger: {r: 0, g: 0.6, b: 0, a: 1}
+--- !u!114 &8407110623943711813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214903140148060515}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aba58bb1fc80ca4998563b7dd5b171b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  speed: 2
+  endCondition: 0
+  value: 0
+  healthManager: {fileID: 0}
+  freeMoveDir: {x: -1, y: 0}
+--- !u!114 &140204175484057525
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,22 +271,3 @@ MonoBehaviour:
   value: 0
   healthManager: {fileID: 0}
   freeMoveDir: {x: 0, y: 0}
---- !u!114 &7893458241735119440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9214903140148060515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bf3b1039878a7f46a9c7f52d6ba77e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _comment: Can be added to a COMPONENTS TO TRIGGER list
-  componentsToTrigger:
-  - {fileID: -962575986865323082}
-  - {fileID: -2064810349476659513}
-  dontAutoDisableComponents: 0
-  colorLink2Targets: {r: 0.6, g: 0.6, b: 0.6, a: 1}
-  colorTrigger: {r: 0, g: 0.6, b: 0, a: 1}
