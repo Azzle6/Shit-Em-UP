@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1923979389560709592}
   - component: {fileID: 3894478025583946710}
   - component: {fileID: 8813050713328119623}
+  - component: {fileID: 2614759107294608811}
   m_Layer: 11
   m_Name: Bullet Nail FC Lvl 3
   m_TagString: Untagged
@@ -150,10 +151,26 @@ MonoBehaviour:
   defaultDamage: 8
   defaultSpeed: 11
   maxBounce: 0
-  doomTimer: {fileID: 0}
+  doomTimer: {fileID: 2614759107294608811}
   toInstantiateOnMapHit: {fileID: 4000010821944288, guid: b080c645dc123db41bdd9a0da73f845d,
     type: 3}
   keepAsChild: 0
+--- !u!114 &2614759107294608811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873967679830209734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318e7beabcfa2844d9f8f12558773741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  duration: 2
 --- !u!1 &4673881171389562782
 GameObject:
   m_ObjectHideFlags: 0

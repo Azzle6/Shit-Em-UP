@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1412801946003258442}
   - component: {fileID: 1432350413718554134}
   - component: {fileID: 6780382780341233736}
+  - component: {fileID: -2891677190981198774}
   m_Layer: 11
   m_Name: Bullet Ring FC
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380834050480466260}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.519, y: -0.061, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,7 +97,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.2
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0.5
@@ -138,8 +139,24 @@ MonoBehaviour:
   dontAutoDisableComponents: 0
   defaultDamage: 10
   defaultSpeed: 5
-  maxBounce: 1
-  doomTimer: {fileID: 0}
+  maxBounce: 3
+  doomTimer: {fileID: -2891677190981198774}
   toInstantiateOnMapHit: {fileID: 4000010821944288, guid: cc3a638a9d38e8c439a0b4cce6a419da,
     type: 3}
   keepAsChild: 0
+--- !u!114 &-2891677190981198774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380834050480466260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318e7beabcfa2844d9f8f12558773741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  duration: 2
