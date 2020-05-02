@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8329069496654599752}
   - component: {fileID: 8329069496654599753}
   - component: {fileID: 8329069496654599754}
+  - component: {fileID: -5006108008442234461}
   m_Layer: 10
   m_Name: RepBullet
   m_TagString: Untagged
@@ -192,7 +193,7 @@ MonoBehaviour:
   dontAutoDisableComponents: 0
   hitPoints: 2
   dmgTakenOnShipHit: 50
-  dmgTakenOnMapHit: 2
+  dmgTakenOnMapHit: 50
   doomTimer: {fileID: 0}
 --- !u!114 &8329069496654599753
 MonoBehaviour:
@@ -230,3 +231,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-5006108008442234461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8329069496654599755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aba58bb1fc80ca4998563b7dd5b171b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  componentsToTrigger: []
+  dontAutoDisableComponents: 0
+  speed: 2
+  endCondition: 0
+  value: 0
+  healthManager: {fileID: 0}
+  freeMoveDir: {x: 0, y: -1}

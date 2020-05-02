@@ -170,7 +170,7 @@ MonoBehaviour:
   dontAutoDisableComponents: 0
   hitPoints: 20
   dmgTakenOnShipHit: 50
-  dmgTakenOnMapHit: 2
+  dmgTakenOnMapHit: 1
   doomTimer: {fileID: 0}
 --- !u!114 &1385057318339266573
 MonoBehaviour:
