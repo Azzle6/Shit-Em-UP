@@ -276,7 +276,7 @@ MonoBehaviour:
   animatorIfFireAnim: {fileID: 0}
   bulletPrefab: {fileID: 8230706563045908854, guid: 12933f626b2accf4daef909070d0ba47,
     type: 3}
-  delayBtwFire: 1
+  delayBtwFire: 1.2
   shootingAngle: 180
 --- !u!114 &7789943551676972126
 MonoBehaviour:
