@@ -137,8 +137,8 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger: []
   dontAutoDisableComponents: 0
-  defaultDamage: 1.7
-  defaultSpeed: 12
+  defaultDamage: 1.5
+  defaultSpeed: 13
   maxBounce: 1
   doomTimer: {fileID: 6290912304654797513}
   toInstantiateOnMapHit: {fileID: 4000010821944288, guid: b080c645dc123db41bdd9a0da73f845d,

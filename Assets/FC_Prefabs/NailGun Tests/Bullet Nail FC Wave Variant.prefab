@@ -80,7 +80,7 @@ PrefabInstance:
     - target: {fileID: 8813050713328119623, guid: 1e552dfa47a6edf469c95444097e96db,
         type: 3}
       propertyPath: defaultDamage
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e552dfa47a6edf469c95444097e96db, type: 3}
