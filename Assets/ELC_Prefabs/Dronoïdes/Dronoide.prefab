@@ -65,8 +65,8 @@ GameObject:
   - component: {fileID: -3029466211469420331}
   - component: {fileID: 41670698662721106}
   - component: {fileID: 7705943782458559556}
-  - component: {fileID: -86837282150783199}
   - component: {fileID: 7178760247587671106}
+  - component: {fileID: -86837282150783199}
   m_Layer: 10
   m_Name: Dronoide
   m_TagString: Untagged
@@ -217,10 +217,23 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger: []
   dontAutoDisableComponents: 0
-  hitPoints: 10
+  hitPoints: 6
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}
+--- !u!114 &7178760247587671106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5336140063379285881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToShip: 7
 --- !u!114 &-86837282150783199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,21 +249,8 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger: []
   dontAutoDisableComponents: 0
-  speed: 15
+  speed: 12
   endCondition: 0
   value: 0
   healthManager: {fileID: 0}
   freeMoveDir: {x: -1, y: 0}
---- !u!114 &7178760247587671106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5336140063379285881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageToShip: 15

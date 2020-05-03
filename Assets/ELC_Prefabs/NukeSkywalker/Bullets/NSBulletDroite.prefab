@@ -53,7 +53,7 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger: []
   dontAutoDisableComponents: 0
-  speed: 10
+  speed: 6
   endCondition: 0
   value: 0
   healthManager: {fileID: 0}
