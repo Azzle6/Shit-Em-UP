@@ -144,7 +144,7 @@ MonoBehaviour:
   - {fileID: 3172200038719603250}
   - {fileID: 1099615519224675789}
   dontAutoDisableComponents: 0
-  hitPoints: 10
+  hitPoints: 12
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToShip: 25
+  damageToShip: 13
 --- !u!114 &1099615519224675789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,7 +346,7 @@ MonoBehaviour:
   isDamagingEnemies: 1
   isDestroyingEnemyBullets: 1
   isDestroyingShipBullets: 1
-  damage: 40
+  damage: 25
   duration: 0
   objToActivate: {fileID: 0}
 --- !u!1 &8539532538457729421

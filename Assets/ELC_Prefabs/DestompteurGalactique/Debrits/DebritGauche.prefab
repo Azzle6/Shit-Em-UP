@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToShip: 25
+  damageToShip: 5
 --- !u!212 &8793781961125091286
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -185,7 +185,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3825212958946349193}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

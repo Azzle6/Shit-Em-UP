@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToShip: 10
+  damageToShip: 4
 --- !u!114 &8329069496654599759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
   - {fileID: 8329069496654599753}
   - {fileID: 3295891128862095436}
   dontAutoDisableComponents: 0
-  hitPoints: 2
+  hitPoints: 10
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}

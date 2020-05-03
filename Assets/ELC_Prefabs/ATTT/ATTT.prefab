@@ -168,7 +168,7 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger: []
   dontAutoDisableComponents: 0
-  hitPoints: 13
+  hitPoints: 11
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 1
   doomTimer: {fileID: 0}
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275cfcef205b71943829da7839b0db87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToShip: 10
+  damageToShip: 5
 --- !u!114 &227837579
 MonoBehaviour:
   m_ObjectHideFlags: 0

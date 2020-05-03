@@ -15,7 +15,7 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger: []
   dontAutoDisableComponents: 0
-  speed: 20
+  speed: 17
   endCondition: 0
   value: 0
   healthManager: {fileID: 0}
@@ -27,10 +27,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1449501625232580850, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: damageToShip
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1513863512916534858, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
         type: 3}
       propertyPath: componentsToTrigger.Array.data[1]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3723858318301145013, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: hitPoints
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5275082408758022426, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
         type: 3}

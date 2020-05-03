@@ -189,7 +189,7 @@ MonoBehaviour:
   componentsToTrigger:
   - {fileID: 0}
   dontAutoDisableComponents: 0
-  hitPoints: 20
+  hitPoints: 10
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}

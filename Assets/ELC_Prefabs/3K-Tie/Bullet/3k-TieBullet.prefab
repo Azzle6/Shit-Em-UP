@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 219736863237108544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 36.57948, y: -1.7802064, z: -49.941406}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -50,8 +50,8 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger: []
   dontAutoDisableComponents: 0
-  defaultDamage: 5
-  defaultSpeed: 12
+  defaultDamage: 3
+  defaultSpeed: 10
   maxBounce: 0
   doomTimer: {fileID: 0}
   toInstantiateOnMapHit: {fileID: 0}
