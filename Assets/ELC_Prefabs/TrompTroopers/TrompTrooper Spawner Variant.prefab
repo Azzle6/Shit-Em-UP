@@ -92,6 +92,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrompTrooper Spawner Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8108239609354759217, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.32016587
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108239609354759217, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.8698325
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108239609354759217, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.037666306
+      objectReference: {fileID: 0}
     - target: {fileID: 9067937911793923648, guid: 9cb3dd2b6c523c944be2978d97b4ee7a,
         type: 3}
       propertyPath: m_BodyType

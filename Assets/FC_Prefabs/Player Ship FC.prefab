@@ -290,37 +290,6 @@ Transform:
   m_Father: {fileID: 8044823197978805330}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 50}
---- !u!1 &2178253408305345961
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 2006166681040384616}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7691190027983457702}
-  m_Layer: 0
-  m_Name: Spawner (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7691190027983457702
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 2006166681040384616}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2178253408305345961}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6107561280164722587}
-  m_Father: {fileID: 5434628679824382730}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2311176818109407552
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,37 +320,6 @@ Transform:
   m_Father: {fileID: 5434628678069173324}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8}
---- !u!1 &2326772030378598637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 3605386197423798483}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4480050206489980923}
-  m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4480050206489980923
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-    type: 3}
-  m_PrefabInstance: {fileID: 3605386197423798483}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2326772030378598637}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6491826178356403644}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2816264106367233816
 GameObject:
   m_ObjectHideFlags: 0
@@ -5894,13 +5832,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5433053646468250290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.441, y: 0.002, z: 0}
-  m_LocalScale: {x: 0.22584113, y: 0.22584113, z: 0.22584113}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5434628678069173324}
   - {fileID: 5434396353575943554}
   - {fileID: 5434227212494458910}
-  - {fileID: 7691190027983457702}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6007,18 +5944,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.12, y: -0.06}
+  m_Offset: {x: 0.47583792, y: -0.010057986}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.6, y: 3.7}
+    oldSize: {x: 2.64, y: 1.48}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.3}
+  m_Size: {x: 0.76265866, y: 0.6745656}
   m_EdgeRadius: 0
 --- !u!114 &5399985725626147760
 MonoBehaviour:
@@ -6123,7 +6060,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.25
+      fireDelay: 0.4
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
@@ -6132,7 +6069,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.25
+      fireDelay: 0.4
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
@@ -6142,7 +6079,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.25
+      fireDelay: 1
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
@@ -6151,7 +6088,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.25
+      fireDelay: 1
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
@@ -6160,7 +6097,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.05
-      fireDelay: 0.25
+      fireDelay: 1
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
@@ -6169,7 +6106,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.05
-      fireDelay: 0.25
+      fireDelay: 1
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
@@ -6178,21 +6115,21 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.1
-      fireDelay: 0.25
+      fireDelay: 1
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
       laserPrefab: {fileID: 0}
-    - cannon: {fileID: 4599653039408233227}
+    - cannon: {fileID: 1277023463636902538}
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.1
-      fireDelay: 0.25
+      fireDelay: 1
       fireDuration: 9999
       bulletPrefab: {fileID: 2940724295430163284, guid: 6050d44b742aca24d8fbd34794af34e2,
         type: 3}
       laserPrefab: {fileID: 0}
-    - cannon: {fileID: 4480050206489980923}
+    - cannon: {fileID: 5434628681692334018}
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
@@ -6206,7 +6143,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 1
       initialDelay: 0
-      fireDelay: 0.6
+      fireDelay: 0.8
       fireDuration: 9999
       bulletPrefab: {fileID: 7413860225379652778, guid: cfd1b0d6f52b2e54eaabfb19e9eac84e,
         type: 3}
@@ -6215,7 +6152,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 1
       initialDelay: 0.07
-      fireDelay: 0.6
+      fireDelay: 0.8
       fireDuration: 9999
       bulletPrefab: {fileID: 7413860225379652778, guid: cfd1b0d6f52b2e54eaabfb19e9eac84e,
         type: 3}
@@ -6224,7 +6161,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 1
       initialDelay: 0.14
-      fireDelay: 0.6
+      fireDelay: 0.8
       fireDuration: 9999
       bulletPrefab: {fileID: 7413860225379652778, guid: cfd1b0d6f52b2e54eaabfb19e9eac84e,
         type: 3}
@@ -6325,7 +6262,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.8
+      fireDelay: 0.65
       fireDuration: 99999
       bulletPrefab: {fileID: 3028784748395697143, guid: 349fc62e7bddf93459fb58f3508682ba,
         type: 3}
@@ -6334,7 +6271,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.8
+      fireDelay: 0.65
       fireDuration: 99999
       bulletPrefab: {fileID: 3029705864314092457, guid: 976f219bc55466f49b6681143914ec44,
         type: 3}
@@ -6343,7 +6280,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.8
+      fireDelay: 0.65
       fireDuration: 99999
       bulletPrefab: {fileID: 6780382780341233736, guid: d65b74845941e3a498647a932e6d9066,
         type: 3}
@@ -6352,7 +6289,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.8
+      fireDelay: 0.65
       fireDuration: 99999
       bulletPrefab: {fileID: 3028784748395697143, guid: 349fc62e7bddf93459fb58f3508682ba,
         type: 3}
@@ -6371,7 +6308,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.8
+      fireDelay: 0.55
       fireDuration: 99999
       bulletPrefab: {fileID: 3028784748395697143, guid: 349fc62e7bddf93459fb58f3508682ba,
         type: 3}
@@ -6380,7 +6317,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.8
+      fireDelay: 0.55
       fireDuration: 99999
       bulletPrefab: {fileID: 3029705864314092457, guid: 976f219bc55466f49b6681143914ec44,
         type: 3}
@@ -6389,7 +6326,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.7
+      fireDelay: 0.3
       fireDuration: 99999
       bulletPrefab: {fileID: 3028784748395697143, guid: 349fc62e7bddf93459fb58f3508682ba,
         type: 3}
@@ -6398,7 +6335,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.8
+      fireDelay: 0.7
       fireDuration: 99999
       bulletPrefab: {fileID: 3028784748395697143, guid: 349fc62e7bddf93459fb58f3508682ba,
         type: 3}
@@ -6432,7 +6369,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.11
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 999999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6441,7 +6378,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.12
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 9999999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6450,7 +6387,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.08
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 100000000
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6459,7 +6396,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.03
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6468,7 +6405,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6477,7 +6414,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6486,7 +6423,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6495,7 +6432,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6505,7 +6442,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.11
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 999999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6514,7 +6451,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.12
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 9999999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6523,7 +6460,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.08
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 100000000
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6532,7 +6469,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.03
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6541,7 +6478,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6550,7 +6487,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6559,7 +6496,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6568,7 +6505,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6577,7 +6514,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.09
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6586,7 +6523,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.11
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6595,7 +6532,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.07
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6604,7 +6541,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.06
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6613,7 +6550,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.06
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4391343007906254753, guid: d9aff3f25d348e84f91ebfc7270dd21b,
         type: 3}
@@ -6623,7 +6560,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.11
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 999999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6632,7 +6569,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.12
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 9999999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6641,7 +6578,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.08
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 100000000
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6650,7 +6587,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.03
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6659,7 +6596,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6668,7 +6605,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6677,7 +6614,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6686,7 +6623,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.16
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6695,7 +6632,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.09
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6704,7 +6641,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.11
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6713,7 +6650,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.07
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6722,7 +6659,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.06
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6731,7 +6668,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0.06
-      fireDelay: 0.2
+      fireDelay: 0.27
       fireDuration: 99999
       bulletPrefab: {fileID: 4791462852298647857, guid: cf675d989944f7a4db99eb39530fc862,
         type: 3}
@@ -6814,7 +6751,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.15
+      fireDelay: 0.16
       fireDuration: 9999999
       bulletPrefab: {fileID: 8692596572914876584, guid: 8d40251b212ab9f489ce6e846394e4c7,
         type: 3}
@@ -6823,7 +6760,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.15
+      fireDelay: 0.16
       fireDuration: 9999999
       bulletPrefab: {fileID: 8692596572914876584, guid: 8d40251b212ab9f489ce6e846394e4c7,
         type: 3}
@@ -6832,7 +6769,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.15
+      fireDelay: 0.16
       fireDuration: 9999999
       bulletPrefab: {fileID: 8692596572914876584, guid: 8d40251b212ab9f489ce6e846394e4c7,
         type: 3}
@@ -6841,7 +6778,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 0
-      fireDelay: 0.15
+      fireDelay: 0.16
       fireDuration: 9999999
       bulletPrefab: {fileID: 8692596572914876584, guid: 8d40251b212ab9f489ce6e846394e4c7,
         type: 3}
@@ -6859,7 +6796,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 1
-      fireDelay: 0.13
+      fireDelay: 0.12
       fireDuration: 9999999
       bulletPrefab: {fileID: 5946116840424559006, guid: d589074ea14fd514fbcc926c7eaa141d,
         type: 3}
@@ -6868,7 +6805,7 @@ MonoBehaviour:
       type: 0
       mustResetDelayOnBtnUp: 0
       initialDelay: 1
-      fireDelay: 0.13
+      fireDelay: 0.12
       fireDuration: 9999999
       bulletPrefab: {fileID: 5946116840424559006, guid: d589074ea14fd514fbcc926c7eaa141d,
         type: 3}
@@ -6945,7 +6882,6 @@ Transform:
   - {fileID: 8733632822162488050}
   - {fileID: 1106686396544405248}
   - {fileID: 8044823197978805330}
-  - {fileID: 6491826178356403644}
   m_Father: {fileID: 5434628679824382730}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7115,37 +7051,6 @@ MonoBehaviour:
   amplitude: 30
   angularSpeed: 25
   isPlayerShip: 1
---- !u!1 &7360359789929799403
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 2006166681040384616}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6107561280164722587}
-  m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6107561280164722587
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-    type: 3}
-  m_PrefabInstance: {fileID: 2006166681040384616}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7360359789929799403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7691190027983457702}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8393909293995477221
 GameObject:
   m_ObjectHideFlags: 0
@@ -7192,37 +7097,6 @@ MonoBehaviour:
   amplitude: 30
   angularSpeed: 80
   isPlayerShip: 1
---- !u!1 &8419907336668015370
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 3605386197423798483}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6491826178356403644}
-  m_Layer: 0
-  m_Name: Spawner Nail Bounce (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6491826178356403644
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 3605386197423798483}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8419907336668015370}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4480050206489980923}
-  m_Father: {fileID: 5434628678069173324}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8516659902139258947
 GameObject:
   m_ObjectHideFlags: 0
@@ -7359,167 +7233,3 @@ Transform:
   m_Father: {fileID: 8044823197978805330}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10}
---- !u!1001 &2006166681040384616
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5434628679824382730}
-    m_Modifications:
-    - target: {fileID: 17256180953285419, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: enemyToSpawnRef
-      value: 
-      objectReference: {fileID: 3091403921128906530, guid: a8a28b9a84b31044b81739b3f4588bf7,
-        type: 3}
-    - target: {fileID: 4188073083077987086, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: componentsToTrigger.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4712639690680024930, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_Name
-      value: Spawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 5693255394905322167, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_Name
-      value: Trigger Bullet
-      objectReference: {fileID: 0}
-    - target: {fileID: 5693255394905322167, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.1954479
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.031122208
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5698530549011252723, guid: f3f832066af87be49a1f93e183c0ae93,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3f832066af87be49a1f93e183c0ae93, type: 3}
---- !u!1001 &3605386197423798483
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5434628678069173324}
-    m_Modifications:
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.7275391
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 875020257881397032, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3199772424977161868, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_Name
-      value: Spawner Nail Bounce
-      objectReference: {fileID: 0}
-    - target: {fileID: 3199772424977161868, guid: 1d694f6e20691d9429960f5aca25a6de,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1d694f6e20691d9429960f5aca25a6de, type: 3}
