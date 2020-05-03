@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/_DO NOT TOUCH/Scenes/Scene Level Select.unity
     guid: bd7beb6c48eab064eab5600daed7f0dd
   - enabled: 1
-    path: Assets/Levels IT/Level TestBed 1 IT.unity
-    guid: a46952d0c72242c46a715b60c34d6841
+    path: Assets/FC_Scenes/FC_LD1.unity
+    guid: 650217afb0a9b3e459e75579e6aab8c8
   - enabled: 1
-    path: Assets/Levels IT/Level Test Boss IT.unity
-    guid: 316bb5f1d9e5a6149bb51f85ff2a9b63
+    path: Assets/ELC_Scenes/ELC_Level2t.unity
+    guid: 8d9f5ceffcf28c34c9eb82cc1411d095
+  - enabled: 1
+    path: Assets/ELC_Scenes/ELC_BossScene.unity
+    guid: 39b1ec6dc57f32549a6f663362d47549
   - enabled: 1
     path: Assets/_DO NOT TOUCH/Scenes/Scene End Game.unity
     guid: 79dcb463fb4db6241a9b16f963c9485f
