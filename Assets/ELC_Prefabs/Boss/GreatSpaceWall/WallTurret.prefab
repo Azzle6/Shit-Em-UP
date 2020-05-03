@@ -259,7 +259,7 @@ MonoBehaviour:
   - {fileID: -7357240866712299116}
   - {fileID: -7713036182772580001}
   dontAutoDisableComponents: 0
-  hitPoints: 50
+  hitPoints: 400
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}

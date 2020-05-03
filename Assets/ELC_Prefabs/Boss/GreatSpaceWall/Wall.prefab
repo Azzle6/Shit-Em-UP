@@ -133,9 +133,10 @@ MonoBehaviour:
   _comment: Can be added to a COMPONENTS TO TRIGGER list
   componentsToTrigger:
   - {fileID: -4183447262041334826}
-  - {fileID: -8970916618208547536, guid: f979f1e66fd74dd4c83ecd0fb00d2f9f, type: 3}
+  - {fileID: 7451317302309535318}
+  - {fileID: 0}
   dontAutoDisableComponents: 0
-  hitPoints: 200
+  hitPoints: 1500
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}

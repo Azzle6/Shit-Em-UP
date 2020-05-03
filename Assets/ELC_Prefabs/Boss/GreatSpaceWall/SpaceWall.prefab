@@ -965,9 +965,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -962575986865323082, guid: 0259c90af5a3b334fb7f10bbe79a81ab,
         type: 3}
-      propertyPath: componentsToTrigger.Array.data[1]
+      propertyPath: componentsToTrigger.Array.data[2]
       value: 
-      objectReference: {fileID: 8709161524552361504}
+      objectReference: {fileID: 0}
     - target: {fileID: 697301441102129527, guid: 0259c90af5a3b334fb7f10bbe79a81ab,
         type: 3}
       propertyPath: wayPoints.Array.size
