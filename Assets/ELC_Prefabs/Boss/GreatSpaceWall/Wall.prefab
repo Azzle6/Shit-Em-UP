@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 3149276432428821585}
   - component: {fileID: 8407110623943711813}
   - component: {fileID: 140204175484057525}
+  - component: {fileID: 7451317302309535318}
   m_Layer: 10
   m_Name: Wall
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_GameObject: {fileID: 9214903140148060515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 147.37608, y: 12.311, z: -17.390625}
-  m_LocalScale: {x: 1, y: 13, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -93,7 +94,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300306, guid: 4e2dbf8a186b0db4d816d2a2bfdaff32, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 405313b709423814d8351b5dcfa5538c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,7 +135,7 @@ MonoBehaviour:
   - {fileID: -4183447262041334826}
   - {fileID: -8970916618208547536, guid: f979f1e66fd74dd4c83ecd0fb00d2f9f, type: 3}
   dontAutoDisableComponents: 0
-  hitPoints: 100
+  hitPoints: 200
   dmgTakenOnShipHit: 50
   dmgTakenOnMapHit: 2
   doomTimer: {fileID: 0}
@@ -155,7 +156,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 13.8, y: 13.5}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -271,3 +272,18 @@ MonoBehaviour:
   value: 0
   healthManager: {fileID: 0}
   freeMoveDir: {x: 0, y: 0}
+--- !u!114 &7451317302309535318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9214903140148060515}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aae5c6343a62c8499cca1931e4e82ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _comment: Can be added to a COMPONENTS TO TRIGGER list
+  objToSpawn: {fileID: 1890232012000131712, guid: 9aeda9176fda2d949bce0bb541110668,
+    type: 3}
